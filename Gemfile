@@ -23,6 +23,7 @@ gem 'jquery-rails'
 gem 'slim'
 gem 'dotenv-rails', groups: [:development, :test]
 gem "figaro"
+gem "rspec-rails"
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
